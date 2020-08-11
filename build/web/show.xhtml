@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form id="show-form">
+            <table border="1">
+                <tr>
+                    <td> <h:outputLabel value="Name"/> </td>
+                    <td> <h:outputText value="#{person.personName}" id="personName"/> </td>
+                </tr>
+                <tr>
+                    <td> <h:outputLabel value="Surname"/> </td>
+                    <td> <h:outputText value="#{person.personSurname}" id="personSurname"/> </td>
+                </tr>
+                <tr>
+                    <td> <h:outputLabel value="Country"/> </td>
+                    <td> <h:outputText value="#{person.personCountry}" id="personCountry"/> </td>
+                </tr>
+                <tr>
+                    <td> <h:outputLabel value="Language"/> </td>
+                    <td> <h:outputText value="#{person.personLanguage}" id="personLanguage"/> </td>
+                </tr>
+                <tr>
+                    <td> <h:outputLabel value="Phone Number"/> </td>
+                    <td> <h:outputText value="#{person.personPhoneNumber}" id="personPhoneNumber"/> </td>
+                </tr>
+                 <tr>
+                    <td> <h:outputLabel value="Gender"/> </td>
+                    <td> <h:outputText value="#{person.personGender}" id="personGender"/> </td>
+                </tr>
+                <tr>
+                    <td> <h:outputLabel value="Address"/> </td>
+                    <td> <h:outputText value="#{person.personAddress}" id="personAddress"/> </td>
+                </tr>
+            </table>            
+        </h:form>
+    </h:body>
+</html>
+
